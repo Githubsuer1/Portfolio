@@ -9,6 +9,7 @@ import Contact from './Components/Contact.jsx';
 import Education from './Components/Education.jsx';
 import Skills from './Components/Skills.jsx';
 import Projects from './Components/Projects.jsx';
+import ImageCarousel from './Components/ImageCarousel.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: '/education', element: <Education /> },
       { path: '/skills', element: <Skills /> },
       { path: '/projects', element: <Projects /> },
+      { path: '/carousel', element: <ImageCarousel /> },
     ],
   },
 ]);

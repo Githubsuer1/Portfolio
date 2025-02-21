@@ -35,7 +35,7 @@ const PrevArrow = ({ onClick }) => (
     </button>
 );
 
-const Projects = () => {
+const ImageCarousel = () => {
     const settings = {
         dots: true,
         infinite: true,
@@ -102,4 +102,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default ImageCarousel;
