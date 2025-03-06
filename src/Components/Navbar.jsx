@@ -11,7 +11,7 @@ const Navbar = () => {
     setOpen((prev)=>!prev)
   }
   return (
-  <nav className={` bg-[#ff5733] text-white w-full h-14 sm:h-25 fixed top-0 flex justify-between items-center  sm:p-2 p-2.5 z-50`}>
+  <nav className={` bg-[#ff5733] text-white w-full h-14 fixed top-0 flex justify-between items-center  sm:p-2 p-2.5 z-50`}>
     <div className={`font-bold text-lg sm:text-2xl`}>Siddhant Mishra</div>
     {/* visible only in small devices */}
     <div className={`sm:hidden ${open?"navbar h-screen absolute top-0 right-0 bg-gradient-to-t from-blue-400 to-pink-500 flex flex-row justify-between":""}`}>

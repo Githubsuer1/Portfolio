@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="mt-14 sm:mt-25"> 
+      <main className="mt-14"> 
         <Outlet /> 
       </main>
     </>
