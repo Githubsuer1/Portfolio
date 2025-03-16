@@ -21,7 +21,7 @@ const Skills = () => {
           </div>
 
           <div className='w-full mt-4'>
-            <a href="https://drive.google.com/file/d/1sHmIahun1i0yLprJWn2r3wdlzloo5-6p/view?usp=sharing" download={true}>
+            <a href="https://drive.google.com/file/d/1W4JiO_GdX1llYFDWB8YvQ1q9eqN8gGLE/view?usp=sharing" download={true}>
               <button className='button w-full border-2 text-[#ff5733] font-bold border-[#ff5733] p-4 rounded'>Download Resume</button>
               </a>
           </div>
